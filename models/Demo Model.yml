@@ -1,12 +1,14 @@
 unique_name: Demo Model
 object_type: model
 label: Demo Model
-metrics: []
+metrics:
+  - unique_name: m_FACTINTERNETSALES_unitprice_Avg
 relationships:
-  - unique_name: FACTINTERNETSALES_empty_dimension
+  - unique_name: FACTINTERNETSALES_productkey_to_Product_Product Name
     from:
       dataset: FACTINTERNETSALES
-      join_columns: []
+      join_columns:
+        - productkey
     to:
-      dimension: ''
-      level: ''
+      dimension: Product
+      level: Product Name
