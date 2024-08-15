@@ -1,0 +1,12 @@
+unique_name: Demo Model
+object_type: model
+label: Demo Model
+metrics: []
+relationships:
+  - unique_name: FACTINTERNETSALES_empty_dimension
+    from:
+      dataset: FACTINTERNETSALES
+      join_columns: []
+    to:
+      dimension: ''
+      level: ''
