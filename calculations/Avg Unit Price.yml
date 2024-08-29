@@ -1,0 +1,7 @@
+unique_name: Avg Unit Price
+object_type: metric_calc
+label: Avg Unit Price
+expression: >-
+  [measures].[m_FACTINTERNETSALES_salesamount_sum] / 
+  [measures].[m_FACTINTERNETSALES_orderquantity_sum]
+is_hidden: false

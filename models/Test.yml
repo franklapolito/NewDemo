@@ -1,0 +1,17 @@
+unique_name: Test
+object_type: model
+label: Test
+dimensions:
+  - Sales_Reasons
+metrics:
+  - unique_name: m_FACTINTERNETSALES_taxamt_sum
+    folder: metrics
+  - unique_name: m_FACTINTERNETSALES_salesamount_sum
+    folder: metrics
+  - unique_name: m_FACTINTERNETSALES_unitprice_sum
+    folder: metrics
+  - unique_name: m_FACTINTERNETSALES_orderquantity_sum
+    folder: metrics
+  - unique_name: Avg Unit Price
+    folder: metrics
+relationships: []
