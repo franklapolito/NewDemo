@@ -1,0 +1,17 @@
+unique_name: Demo Mouser
+object_type: model
+label: Demo Mouser
+description: '10/2 '
+metrics:
+  - unique_name: m_FACTINTERNETSALES_orderquantity_sum
+  - unique_name: m_FACTINTERNETSALES_unitprice_sum
+  - unique_name: m_FACTINTERNETSALES_salesamount_sum
+relationships:
+  - unique_name: FACTINTERNETSALES_productkey_to_Product_Eng. Product Name
+    from:
+      dataset: FACTINTERNETSALES
+      join_columns:
+        - productkey
+    to:
+      dimension: Product
+      level: Eng. Product Name
