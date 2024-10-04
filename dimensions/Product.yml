@@ -1,0 +1,27 @@
+unique_name: Product
+object_type: dimension
+label: Product
+hierarchies:
+  - unique_name: Product
+    label: Product
+    levels:
+      - unique_name: Eng. Product Name
+        secondary_attributes:
+          - unique_name: Prod List Price
+            label: Prod List Price
+            contains_unique_names: false
+            dataset: DIMPRODUCT
+            is_unique_key: false
+            key_columns:
+              - listprice
+            name_column: listprice
+level_attributes:
+  - unique_name: Eng. Product Name
+    label: Eng. Product Name
+    contains_unique_names: false
+    dataset: DIMPRODUCT
+    is_unique_key: false
+    key_columns:
+      - productkey
+    name_column: englishproductname
+type: standard
