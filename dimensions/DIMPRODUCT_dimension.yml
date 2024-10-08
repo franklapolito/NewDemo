@@ -1,0 +1,18 @@
+unique_name: DIMPRODUCT_dimension
+object_type: dimension
+label: DIMPRODUCT_dimension
+hierarchies:
+  - unique_name: Product
+    label: Product
+    levels:
+      - unique_name: Eng. Product Name
+level_attributes:
+  - unique_name: Eng. Product Name
+    label: Eng. Product Name
+    contains_unique_names: false
+    dataset: DIMPRODUCT
+    is_unique_key: false
+    key_columns:
+      - productkey
+    name_column: englishproductname
+type: standard
