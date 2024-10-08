@@ -14,5 +14,5 @@ level_attributes:
     is_unique_key: false
     key_columns:
       - productkey
-    name_column: englishproductname
+    name_column: productkey
 type: standard
