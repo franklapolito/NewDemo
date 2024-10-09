@@ -1,6 +1,0 @@
-unique_name: Max Tax Ammount
-object_type: metric
-label: Max Tax Ammount
-calculation_method: maximum
-column: salesamount
-dataset: FACTINTERNETSALES

@@ -1,6 +1,0 @@
-unique_name: m_FACTINTERNETSALES_taxamt_sum
-object_type: metric
-label: Total ax Amount
-calculation_method: sum
-column: taxamt
-dataset: FACTINTERNETSALES
