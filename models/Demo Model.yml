@@ -1,0 +1,14 @@
+unique_name: Demo Model
+object_type: model
+label: Demo Model
+metrics:
+  - unique_name: m_FACTINTERNETSALES_taxamt_sum
+relationships:
+  - unique_name: FACTINTERNETSALES_productkey_to_DIMPRODUCT_dimension_Eng. Product Name
+    from:
+      dataset: FACTINTERNETSALES
+      join_columns:
+        - productkey
+    to:
+      dimension: DIMPRODUCT_dimension
+      level: Eng. Product Name
