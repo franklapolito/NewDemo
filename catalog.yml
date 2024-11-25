@@ -1,6 +1,6 @@
-unique_name: Demo Repo
+version: 1
+unique_name: Demos
 object_type: catalog
-label: Demo Repo
+label: Demos
 aggressive_agg_promotion: false
-as_version: 1
 build_speculative_aggs: true

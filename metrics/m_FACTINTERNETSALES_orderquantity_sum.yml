@@ -1,6 +1,0 @@
-unique_name: m_FACTINTERNETSALES_orderquantity_sum
-object_type: metric
-label: Total Order Quantity
-calculation_method: sum
-column: orderquantity
-dataset: FACTINTERNETSALES
