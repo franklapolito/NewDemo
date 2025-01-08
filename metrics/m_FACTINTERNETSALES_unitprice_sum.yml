@@ -1,0 +1,6 @@
+unique_name: m_FACTINTERNETSALES_unitprice_sum
+object_type: metric
+label: Max Unit Price
+calculation_method: maximum
+column: unitprice
+dataset: FACTINTERNETSALES
